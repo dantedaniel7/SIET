@@ -1,4 +1,5 @@
 <?php
+
 	require ('../conexion.php');
 	
 	$cod_direc = $_POST['cod_direc'];
@@ -14,4 +15,5 @@
 	}
 	
 	echo $html;
+
 ?>
